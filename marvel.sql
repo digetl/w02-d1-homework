@@ -71,8 +71,15 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 
 -- INSERT INTO movies (title, year, show_time) VALUES ('Iron Man 3', 2013, '21:55');
 
-SELECT show_time FROM movies where title = 'Iron Man 2';
+-- SELECT show_time FROM movies where title = 'Iron Man 2';
+-- -- SELECT * FROM movies;
+
+-- UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
 -- SELECT * FROM movies;
 
-UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
-SELECT * FROM movies;
+-- Extensions
+--https://www.postgresqltutorial.com/postgresql-delete/
+
+-- DELETE FROM table
+-- WHERE
+--     condition;
